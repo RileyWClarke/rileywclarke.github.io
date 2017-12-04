@@ -1296,6 +1296,7 @@ form textarea {
 .site-header {
   *zoom: 1;
   padding: 20px 0 0;
+  font-size: 36px;
   line-height: normal; }
   .site-header:after {
     content: " ";
