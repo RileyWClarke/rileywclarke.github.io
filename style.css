@@ -1383,7 +1383,7 @@ form textarea {
 
 .mobile-navigation {
   clear: both;
-  background: #ed5151;
+  background: #949494;
   display: none;
   margin-bottom: 20px; }
   @media screen and (min-width: 991px) {
