@@ -1296,7 +1296,6 @@ form textarea {
 .site-header {
   *zoom: 1;
   padding: 20px 0 0;
-  font-size: 36px;
   line-height: normal; }
   .site-header:after {
     content: " ";
@@ -1305,7 +1304,8 @@ form textarea {
     overflow: hidden;
     height: 0; }
   .site-header .container {
-    *zoom: 1; }
+    *zoom: 1;
+    font-size: 36px;}
     .site-header .container:after {
       content: " ";
       clear: both;
