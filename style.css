@@ -1312,15 +1312,6 @@ form textarea {
       overflow: hidden;
       height: 0; }
 
-.site-header .title {
-  font-size: 26px;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  color: #424242;
-  float: left; }
- 
-
 .logo {
   float: left;
   margin-bottom: 20px; }
