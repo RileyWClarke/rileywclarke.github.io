@@ -1304,15 +1304,14 @@ form textarea {
     overflow: hidden;
     height: 0; }
   .site-header .container {
-    *zoom: 1;
-    font-size: 36px;}
+    *zoom: 1;}
     .site-header .container:after {
       content: " ";
       clear: both;
       display: block;
       overflow: hidden;
       height: 0; }
-
+      
 .logo {
   float: left;
   margin-bottom: 20px; }
