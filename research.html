@@ -57,7 +57,17 @@
 												
 						<h1> Recent Publications</h1>
 
-						<h2>1. Flares on Wide Binary Stars</h2>
+						<h2>1. Every Datapoint Counts: Stellar Flares as a Case Study of Atmosphere-Aided Studies of Transients in the Rubin LSST Era</h2>
+
+						<p>Due to their short timescale, stellar flares are a challenging target for the most modern synoptic sky surveys. The upcoming Vera C. Rubin Legacy Survey of Space and Time (LSST), a project designed to collect more data than any precursor survey, is unlikely to detect flares with more than one data point in its main survey. We developed a methodology to enable LSST studies of stellar flares, with a focus on flare temperature and temperature evolution, which remain poorly constrained compared to flare morphology. By leveraging the sensitivity expected from the Rubin system, differential chromatic refraction (DCR) can be used to constrain flare temperature from a single-epoch detection, which will enable statistical studies of flare temperatures and constrain models of the physical processes behind flare emission using the unprecedentedly high volume of data produced by Rubin over the 10 yr LSST. We model the refraction effect as a function of the atmospheric column density, photometric filter, and temperature of the flare, and show that flare temperatures at or above ∼4000 K can be constrained by a single g-band observation at air mass X ≳ 1.2, given the minimum specified requirement on the single-visit relative astrometric accuracy of LSST, and that a surprisingly large number of LSST observations are in fact likely be conducted at X ≳ 1.2, in spite of image quality requirements pushing the survey to preferentially low X. Having failed to measure flare DCR in LSST precursor surveys, we make recommendations on survey design and data products that enable these studies in LSST and other future surveys.</p>
+						<img src="images/temp_am_grid.png" alt="" class="" style="width:600px;height:600px;">
+
+						<h2>2. Detection and Removal of Periodic Noise in Kepler/K2 Photometry with Principal Component Analysis</h2>
+
+						<p>We present a novel method for detrending systematic noise from time series data using Principal Component Analysis (PCA) in Fast Fourier Transforms. This method is demonstrated on time series data obtained from the inaugural campaign of the Kepler K2 mission, as well as three objects of interest from Campaign 4. Unlike previous detrending techniques that utilize PCA, this method performs the detrending in Fourier space rather than temporal space. The advantage of performing the analysis in frequency space is that the technique is sensitive purely to the periodicity of the unwanted signal and not to its morphological characteristics. This method could improve measurements of low signal-to-noise photometric features by reducing systematics. We also discuss challenges and limitations associated with this technique.</p>
+						<img src="images/rnaasac179bf1_hr.jpg" alt="" class="" style="width:600px;height:600px;">
+
+						<h2>3. Flares on Wide Binary Stars</h2>
 						
 						<p> Widely separated binary stars offer a unique coeval laboratory in which to conduct age-activity-rotation studies. While previous studies have compared activity tracers such as H-alpha and X-ray between wide binary companions, this projects compares relative flare luminosity between previously identified wide binaries in the Kepler field.</p>
 						<p> The figure below compares relative flare luminosity for 58 wide binaries with detected flare activity. While most pairs lie along the expected relationship for coeval, equal-mass stars, others do not. The area between the yellow lines contains pairs whose difference in flare luminosity may plausibly be explained by a solar-like activity cycle. The green region contains pairs where the secondary star is significantly more active, while the blue region contains pairs where the primary is more active. The red region denotes the minimum flare detection threshold, below which flare signals are indistinguishable from noise. Circled points are pairs with q ≥ 0.8, uncircled points are pairs with q < 0.8</p>
@@ -65,14 +75,6 @@
 						<img src="images/ab_v5.png" alt="" class="ab_v5" style="width:600px;height:600px;">
 						<p> The source code for this project can be found <a href="https://github.com/RileyWClarke/WideBinaryProject" target="_blank">here.</a></p>
 							
-						<h2>2. Modelling Quasi-Periodic Pulsations in Stellar Flares with Gaussian Processes</h2>
-						<p>A Gaussian process is a type of statistical model for continuous-domain, stochastic data (like flares!). The process uses a "kernel" function to predict a new value from training data.</p> 
-						<p>QPPs are oscillations seen in white-light stellar flare decay phases. <a href="https://arxiv.org/abs/1604.03018" target="_blank">Pugh et al. (2016)</a> found 56 flares with QPP-like signatures out of 1439 flares on 216 stars in the Kepler field. The figure below shows a decay-subtracted flare on KIC 12156549. The least-squares fit from Pugh et al. 2016 found a period of 44.6±0.6 days, while the GP fit found a period of 33.15±0.32 days.</p>
-						<p>This project uses Celerite, a scalable method for Gaussian Process regression created by <a href="https://github.com/dfm" target="_blank">Daniel Foreman-Mackey</a>.</p>
-						<img src="images/Fit_comparison(full).png" alt="" class="Fit_comparison(full)" style="width:600px;height:400px;">
-						<p> The source code for this project can be found <a href="https://github.com/RileyWClarke/QPP-GP" target="_blank">here.</a></p>
-
-
 					</div>
 				</div>
 
