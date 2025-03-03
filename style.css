@@ -1412,7 +1412,7 @@ form textarea {
     margin: 0; }
 
 .hero {
-  background: #949494;
+  background: #ffffff;
   text-align: center;
   padding: 50px 0; }
   .hero img {
@@ -1420,7 +1420,7 @@ form textarea {
     max-width: 100%;
     height: auto; }
   .hero .hero-content {
-    color: white; }
+    color: #927e7e; }
     .hero .hero-content span {
       padding: 10px;
       background-color: #949494;
